@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contianer {
+  max-width: 1390px;
+  margin: auto;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  /* background-color: #FBF8EC; */
+  background-color: aqua;
+  padding-top: 80px;
+}
+.ortasi {
+  width: 100%;
+  height: 1000%;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.head_menyu {
+  width: 100%;
+  height: 50px;
+  /* background-color: darkcyan; */
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.head_menyu p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #606060;
+  font-size: 16px;
+}
+.head_menyu h1 {
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 700;
+  color: #414141;
+}
+.card_shop {
+  margin-top: 30px;
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  padding: 10px;
+}
+
+.shoping {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 6px;
+}
+.shoping .img_product {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.qadoqlilar {
+  width: 189px;
+  height: 180px;
+  object-fit: contain;
+  display: flex;
+  margin: auto;
+}
+.sut {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  display: flex;
+  margin: auto;
+}
+.shirinlik {
+  width: 100%;
+  height: 179px;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 12px;
+}
+.kolbasa_2{
+    object-fit: contain;
+}
+.foiz {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 30px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #ff6633;
+}
+.arxiv {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f2f1;
+}
+.info_product {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.narx {
+  display: flex;
+  justify-content: space-between;
+}
+.narx :first-child {
+  font-weight: bold;
+}
+.malumot {
+  display: flex;
+  justify-content: space-between;
+  color: #bfbfbf;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.city {
+  width: 100%;
+  font-size: 19px;
+  color: #414141;
+}
+.rating {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.info_product button {
+  width: 100%;
+  height: 30px;
+  background: none;
+  border: 2px solid #70c05b;
+  color: #70c05b;
+  font-size: 16px;
+}
+
+.shoping button:hover {
+  background-color: #ff6633;
+  color: white;
+  transition: 1s;
+}
+.menyu_2{
+    margin-top: 150px;
+}
+.narx-2{
+    margin-bottom: 30px;
+}
+.info_shop{
+    width: 100%;
+    height: 300px;
+    background-color: darkgoldenrod;
+    margin-top: 130px;
+    padding: 15px;
+}
+.info_shop h1{
+    font-family: "Winky Sans", sans-serif;
+    font-weight: 700;
+}
+.info_shop .text_box{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    gap: 50px;
+}
+.left_box{
+    flex: 1;
+    border:2px solid black;
+    background-color: #CA936080;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.left_text{
+    width: 45%;
+}
+.left_text h1{
+    margin-bottom: 10px;
+}
+.left_box img{
+    width: 206px;
+    height: 120px;
+    transform: rotate(40deg);
+}
+
+.right_box{
+    flex: 1;
+    background-image: url(./info_shop/image/image_2025-05-27_15-08-34.png);
+    background-size: contain;
+    background-position: right;
+    border:2px solid black; 
+    display: flex;
+}
