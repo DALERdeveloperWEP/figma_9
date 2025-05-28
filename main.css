@@ -17,7 +17,7 @@ main {
 }
 .ortasi {
   width: 100%;
-  height: 1000%;
+  height: 100%;
   background-color: dodgerblue;
   padding: 10px;
 }
@@ -29,6 +29,7 @@ main {
   justify-content: space-between;
   padding: 5px;
 }
+
 .head_menyu p {
   display: flex;
   align-items: center;
@@ -162,18 +163,14 @@ main {
 .narx-2 {
   margin-bottom: 30px;
 }
-.info_shop {
-  width: 100%;
-  height: 350px;
-  margin-top: 130px;
-  padding: 15px;
-}
-.info_shop h1 {
+.info_shoping h1 {
   font-family: "Winky Sans", sans-serif;
   font-weight: 700;
+  margin-top: 80px;
   margin-bottom: 40px;
+  color: #414141;
 }
-.info_shop .text_box {
+.info_shoping .text_box {
   width: 100%;
   height: 90%;
   display: flex;
@@ -239,9 +236,9 @@ main {
 .info_map {
   width: 100%;
   height: 800px;
-  background-color: dodgerblue;
-  margin-top: 100px;
+  background-color: black;
   padding: 12px;
+  margin-top: 30px;
 }
 
 .info_map h1 {
@@ -271,36 +268,43 @@ main {
   background-color: #70c05b;
   color: white;
 }
-.map_card{
+.map_card {
   width: 100%;
-  height: 600px;
+  height: 540px;
   margin-top: 20px;
   background: url(./image/map.png);
   background-size: contain;
 }
-.information_product{
+.information_product {
   width: 100%;
   height: 600px;
   margin-top: 40px;
   background-color: darkorchid;
   padding: 10px;
 }
-.menyu_Info{
+.menyu_Info {
   padding: 12px;
   display: flex;
+  background-color: navy;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 70px;
 }
-.menyu_Info h1{
+.menyu_Info h2 {
   color: #414141;
+  font-family: "Winky Sans", sans-serif;
+  font-size: 30px;
 }
-.menyu_Info p{
+.menyu_Info p {
   display: flex;
   align-items: center;
   height: 20px;
   color: #606060;
 }
 
-.card_product{
+.card_product {
   width: 100%;
   height: 80%;
   background-color: burlywood;
@@ -309,18 +313,47 @@ main {
   gap: 50px;
 }
 
-.card_Info{
+.card_Info {
   flex: 1;
   background-color: yellow;
   border: 2px solid black;
 }
-.card_Info img{
+.card_Info img {
   width: 100%;
   height: 44%;
   object-fit: cover;
 }
-.card_Info .text_Info{
+.card_Info .text_Info {
   width: 100%;
-  height:56%;
+  height: 55%;
   background-color: aqua;
+  font-family: "Winky Sans", sans-serif;
+  padding: 10px;
+}
+.text_Info h3 {
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+.text_Info button {
+  background-color: #e5ffde;
+  border: none;
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  color: #70c05b;
+  transition: 1s;
+}
+.text_Info button:hover {
+  background-color: #70c05b;
+  color: white;
+}
+.margin_top_one {
+  margin-top: 15px;
+}
+.margin_top_two {
+  margin-top: 55px;
+}
+.margin_top_three {
+  margin-top: 35px;
 }
