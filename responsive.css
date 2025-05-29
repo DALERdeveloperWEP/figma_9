@@ -1,7 +1,6 @@
 .contianer {
   max-width: 1390px;
   margin: auto;
-  background-color: dodgerblue;
 }
 
 @media (max-width: 1024px) {
