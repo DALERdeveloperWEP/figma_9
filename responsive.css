@@ -1,0 +1,28 @@
+.contianer {
+  max-width: 1390px;
+  margin: auto;
+  background-color: dodgerblue;
+}
+
+@media (max-width: 1024px) {
+  .contianer {
+    padding: 15px;
+    max-width: 90%;
+  }
+}
+
+/* Kichik ekranlar (480px–767px) */
+@media (max-width: 767px) {
+  .contianer {
+    padding: 10px;
+    max-width: 95%;
+  }
+}
+
+/* Juda kichik ekranlar (480px dan past) */
+@media (max-width: 480px) {
+  .contianer {
+    padding: 8px;
+    max-width: 100%;
+  }
+}
