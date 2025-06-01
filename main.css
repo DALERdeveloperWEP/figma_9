@@ -54,6 +54,7 @@ main {
   width: 100%;
   height: 100%;
   background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 6px;
 }
 .shoping .img_product {
