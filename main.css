@@ -65,14 +65,12 @@ main {
 }
 
 .qadoqlilar {
-  width: 189px;
   height: 180px;
   object-fit: contain;
   display: flex;
   margin: auto;
 }
 .sut {
-  width: 200px;
   height: 180px;
   object-fit: cover;
   display: flex;
