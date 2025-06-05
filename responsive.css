@@ -1,27 +1,46 @@
 .contianer {
-  max-width: 1200px;
+  max-width: 1290px;
   margin: auto;
+  /* background-color: rgba(0, 0, 0, 0.501); */
 }
 
-@media (max-width: 1024px) {
-  .contianer {
-    padding: 15px;
-    max-width: 90%;
+/* @media (width > 1000px) {
+  .shoping .city{
+    background-color: yellow;
+  } 
+} */
+
+ @media (max-width: 950px) {
+  .last{
+    display: none;
+    
+  }
+
+  .city{
+    font-size: 1.6vw;
+  }
+  .shablon img{
+    width: 300px;
+  }
+
+  
+}
+
+@media (width < 1150px) {
+  .left_img img{
+    background-color: rgba(0, 0, 0, 0.389);
+    width: 15vw;
+    margin-top: 30px;
+  }
+  .right_img{
+    background-color: rgba(0, 0, 0, 0.326);
+    /* background-color: dodgerblue; */
   }
 }
-
-/* Kichik ekranlar (480px–767px) */
-@media (max-width: 767px) {
-  .contianer {
-    padding: 10px;
-    max-width: 95%;
-  }
-}
-
-/* Juda kichik ekranlar (480px dan past) */
+/*
 @media (max-width: 480px) {
   .contianer {
     padding: 8px;
     max-width: 100%;
   }
-}
+} */
