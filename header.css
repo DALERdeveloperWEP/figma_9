@@ -99,6 +99,9 @@
 .shablon img {
   width: 400px;
 }
+.material-symbols-outlined{
+  font-size: 20px;
+}
 .shablon {
   display: flex;
   align-items: center;
