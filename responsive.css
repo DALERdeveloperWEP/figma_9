@@ -8,10 +8,17 @@
   .shoping .city{
     background-color: yellow;
   } 
-} */
+} 
+*/
+
+.head_menyu > a{
+  display: flex;
+  align-items: center;
+}
+
 
  @media (max-width: 950px) {
-  .last{
+  .card_shop .last{
     display: none;
     
   }
@@ -23,24 +30,110 @@
     width: 300px;
   }
 
-  
-}
 
-@media (width < 1150px) {
-  .left_img img{
-    background-color: rgba(0, 0, 0, 0.389);
-    width: 15vw;
-    margin-top: 30px;
+  .left_box{
+    background-color: yellow;
+    overflow: hidden;
+  }
+
+  .left_text h1{
+    width: 200px;
   }
   .right_img{
     background-color: rgba(0, 0, 0, 0.326);
     /* background-color: dodgerblue; */
+    width: 15vw;
+
+  }
+
+
+
+
+  .left_img img{
+    background-color: rgba(0, 0, 0, 0.389);
+    width: 15vw;
+    margin-bottom: 10px;
+    margin-right: 40px;
+  }
+  .right_box{
+    background-color: dodgerblue;
+  }
+  .right_box h1{
+    background-color: dodgerblue;
+    width: 150px;
+    font-size: 28px;
+  }
+
+  .menyu_logo{
+    display: none;
+  }
+  .Logo_card a img{
+    width: 50px;
+  }
+  .menyu_card{
+    max-width: 80px;
+    min-width: 50px;
+  }
+  .menyu_card > h3{
+    display: none;
+  }
+  
+}
+
+@media (max-width: 705px) {
+  .card_shop > .last{
+    display: block; 
+  }
+  .card_shop{
+    grid-template-rows: repeat(2,1fr);
   }
 }
-/*
-@media (max-width: 480px) {
-  .contianer {
-    padding: 8px;
-    max-width: 100%;
+
+@media(max-width:750px){
+  .button_card{
+    position: fixed;
+    z-index: 10;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    background-color: white;
   }
-} */
+  .button_card > .card{
+    width: 100px;
+  }
+}
+
+
+@media (max-width: 1075px) {
+
+  .card_product{
+    column-gap: 20px;
+    align-items: center;
+    row-gap: 0;
+  }
+}
+
+@media(max-width:480px){
+  .text_logo{
+    display: none;
+  }
+  .shablon > img{
+    width: 300px;
+  }
+  .attention{
+    font-size: 22px;
+  }
+
+
+  .left_box{
+    
+  }
+  .left_box h1{
+    font-size: 18px;
+  }
+  .right_img{
+    /* width: 10px; */
+  }
+}
+
