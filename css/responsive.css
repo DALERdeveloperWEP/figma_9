@@ -33,17 +33,17 @@
   .left_text h1 {
     width: 200px;
   }
-  .right_img {
-    /* background-color: dodgerblue; */
-  }
+  /* .right_img {
+    background-color: dodgerblue;
+  } */
 
   .left_img img {
     width: 15vw;
     margin-bottom: 10px;
     margin-right: 40px;
   }
-  .right_box {
-  }
+  /* .right_box {
+  } */
   .right_box h1 {
     width: 150px;
     font-size: 28px;
