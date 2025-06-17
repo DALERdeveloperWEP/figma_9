@@ -151,3 +151,14 @@
 .lupa > a > i:hover{
   color: #70c05b;
 } 
+
+.katalog{
+  display: none;
+}
+.img_header{
+  display: none;
+}
+
+/* header{
+  display: none;
+} */

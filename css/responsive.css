@@ -16,7 +16,16 @@
   align-items: center;
 }
 
+  footer{
+    display: none;
+  }
+
+
 @media (max-width: 950px) {
+  footer{
+    display: none;
+  }
+
   .card_shop .last {
     display: none;
   }
@@ -33,17 +42,11 @@
   .left_text h1 {
     width: 200px;
   }
-  /* .right_img {
-    background-color: dodgerblue;
-  } */
-
   .left_img img {
-    width: 15vw;
+    width: 18vw;
     margin-bottom: 10px;
     margin-right: 40px;
   }
-  /* .right_box {
-  } */
   .right_box h1 {
     width: 150px;
     font-size: 28px;
@@ -62,7 +65,22 @@
   .menyu_card > h3 {
     display: none;
   }
+
+  .left_box{
+    overflow: hidden;
+  }
+
+  .right_img img{
+    width: 270px;
+    height: 150px;
+    transform: rotate(15deg);
+    margin-left: 30px;
+  }
+
 }
+
+
+
 
 @media (max-width: 705px) {
   .card_shop > .last {
@@ -71,7 +89,21 @@
   .card_shop {
     grid-template-rows: repeat(2, 1fr);
   }
+
+  .text_box{
+    grid-template-rows: repeat(2,1fr);
+  }
+
+  .left_img img {
+    width: 160px;
+    margin-left: 40px;
+  }
 }
+
+
+
+
+
 
 @media (max-width: 750px) {
   .button_card {
@@ -81,6 +113,7 @@
     width: 100%;
     bottom: 0;
     right: 0;
+    background-color: white;
   }
   .button_card > .card {
     width: 100px;
@@ -91,6 +124,10 @@
   }
 }
 
+
+
+
+
 @media (max-width: 1075px) {
   .card_product {
     column-gap: 20px;
@@ -98,6 +135,10 @@
     row-gap: 0;
   }
 }
+
+
+
+
 
 @media (max-width: 480px) {
   .text_logo {
@@ -116,20 +157,16 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     gap: 20px;
     padding: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
   .right_img img{
-    width: 180px;
-    height: 100px;
+    width: 240px;
   }
 
   .left_img img {
-    width: 130px;
-    margin-bottom: 30px;
-    margin-right: 50px;
+    width: 180px;
   }
 
 }
