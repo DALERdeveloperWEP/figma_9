@@ -37,12 +37,10 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 5px;
-  background-color: red;
 }
 
 .head_menyu a {
   width: 130px;
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
