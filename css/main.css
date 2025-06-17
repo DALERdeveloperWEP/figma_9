@@ -289,12 +289,13 @@ main {
   margin-bottom: 40px;
 }
 .city_map {
-  width: 500px;
+  max-width: 500px;
   height: 50px;
   display: flex;
   gap: 30px;
   align-items: center;
   padding: 5px;
+  background-color: dodgerblue;
 }
 .city_map button {
   flex: 1;
@@ -424,8 +425,7 @@ a:hover {
   transform: scale(1.03);
 }
 
-/* svg{
+svg{
   width: 100%;
-} */
-/* <i class="fa-solid fa-chevron-right"></i> */
+}
 
