@@ -1,30 +1,16 @@
 .contianer {
   max-width: 1290px;
   margin: auto;
-  /* background-color: rgba(0, 0, 0, 0.501); */
 }
 
-/* @media (width > 1000px) {
-  .shoping .city{
-    background-color: yellow;
-  } 
-} 
-*/
 
 .head_menyu > a {
   display: flex;
   align-items: center;
 }
 
-  footer{
-    display: none;
-  }
-
 
 @media (max-width: 950px) {
-  footer{
-    display: none;
-  }
 
   .card_shop .last {
     display: none;
@@ -36,8 +22,6 @@
   .shablon img {
     width: 300px;
   }
-  
-
 
   .left_text h1 {
     width: 200px;
@@ -66,21 +50,17 @@
     display: none;
   }
 
-  .left_box{
+  .left_box {
     overflow: hidden;
   }
 
-  .right_img img{
+  .right_img img {
     width: 270px;
     height: 150px;
     transform: rotate(15deg);
     margin-left: 30px;
   }
-
 }
-
-
-
 
 @media (max-width: 705px) {
   .card_shop > .last {
@@ -90,8 +70,8 @@
     grid-template-rows: repeat(2, 1fr);
   }
 
-  .text_box{
-    grid-template-rows: repeat(2,1fr);
+  .text_box {
+    grid-template-rows: repeat(2, 1fr);
   }
 
   .left_img img {
@@ -100,13 +80,9 @@
   }
 }
 
-
-
-
-
-
 @media (max-width: 750px) {
   .button_card {
+    align-items: center;
     position: fixed;
     z-index: 10;
     height: 80px;
@@ -119,14 +95,10 @@
     width: 100px;
   }
 
-  footer{
+  footer {
     margin-bottom: 130px;
   }
 }
-
-
-
-
 
 @media (max-width: 1075px) {
   .card_product {
@@ -135,10 +107,6 @@
     row-gap: 0;
   }
 }
-
-
-
-
 
 @media (max-width: 480px) {
   .text_logo {
@@ -161,7 +129,7 @@
     padding: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
-  .right_img img{
+  .right_img img {
     width: 240px;
   }
 
@@ -169,4 +137,23 @@
     width: 180px;
   }
 
+  .img_header img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  .menyu_card {
+    display: none;
+  }
+  .Logo_card {
+    display: none;
+  }
+
+  .katalog {
+    display: flex;
+  }
+
+  .img_header {
+    display: flex;
+  }
 }
+

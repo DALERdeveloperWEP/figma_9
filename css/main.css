@@ -295,7 +295,6 @@ main {
   gap: 30px;
   align-items: center;
   padding: 5px;
-  background-color: dodgerblue;
 }
 .city_map button {
   flex: 1;

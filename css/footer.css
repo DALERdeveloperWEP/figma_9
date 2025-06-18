@@ -6,6 +6,7 @@
 footer{
   width: 100%;
   height: auto;
+  height: 100px;
   background-color: #F9F4E2;
 }
 
@@ -41,4 +42,10 @@ a{
   gap: 5px;
   font-size: 19px;
 }
-
+.number i{
+  font-size: 24px;
+}
+/* footer {
+  display: none;
+}
+ */
