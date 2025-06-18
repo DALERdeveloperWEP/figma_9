@@ -265,14 +265,10 @@ section {
   justify-content: space-between;
   align-items: center;
 }
-.box-korish ul li {
-  /* margin-top: 15px; */
-}
 .box-korish ul li a {
   text-decoration: none;
 }
 .box-korish ul li a p {
-  /* background-color: yellow; */
   font-size: 24px;
   width: 30px;
   display: flex;
