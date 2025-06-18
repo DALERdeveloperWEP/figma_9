@@ -157,3 +157,47 @@
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menyu_head {
+  display: flex;
+  font-size: 14px;
+  gap: 10px;
+  padding: 20px;
+}
+.menyu_head p:nth-child(3) {
+  margin-top: 2px;
+  color: #8f8f8f;
+}
+.menyu_head p:nth-child(1) {
+  margin-top: 2px;
+}
