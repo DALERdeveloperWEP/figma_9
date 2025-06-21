@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --yashil: #70c05b;
+  --grayColor: #606060;
+}
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  transition: 0.2s ease;
+}
+main {
+  width: 100%;
+  height: auto;
+  background-color: #fbf8ec;
+}
+.ortasi {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+svg {
+  width: 100%;
+}
+
+.head-title {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: end;
+  margin-bottom: 40px;
+}
+
+.sum-product {
+  width: 30px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #ff6633;
+  position: absolute;
+  top: 0;
+  left: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 22px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.head-title > h1 {
+  font-size: 58px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.product {
+  width: 100%;
+  height: 500px;
+}
+.head-product {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 30px;
+  padding: 5px;
+  align-items: center;
+}
+.vdeli {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  background-color: white;
+  height: 100%;
+  align-items: center;
+  padding: 5px;
+}
+
+main i {
+  border: none;
+  width: 30px;
+  height: 100%;
+  background-color: var(--yashil);
+  display: flex;
+  font-size: 23px;
+  color: white;
+  border-radius: 4px;
+  padding: 4px;
+}
+.dalete {
+  color: red;
+}
+.wrapper-product {
+  width: 100%;
+  height: calc(100% - 50px);
+  display: flex;
+}
+.child-product {
+  flex: 2.5;
+}
+
+.info-product {
+  flex: 1;
+  background-color: #ff6633;
+  padding-top: 10px;
+  display: flex;
+}
+.child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.child:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img-icon {
+  margin-right: 10px;
+  position: relative;
+  width: 100px;
+  height: 100%;
+}
+.img-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-icon i {
+  position: absolute;
+  height: 30px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+.text-child {
+  width: 440px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.text-child h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.text-child {
+  display: flex;
+}
+.text-child nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.child .text-child nav:not(:last-child) span:first-child {
+  font-weight: 700;
+}
+.child .text-child nav span:not(:first-child) {
+  color: var(--grayColor);
+}
+
+.child .text-child nav:nth-child(2) span {
+  color: var(--grayColor);
+}
+
+.child:last-child {
+  opacity: 0.2;
+}
+
+.element_2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.aksiya {
+  width: 70px;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  border-radius: 4px;
+  background-color: #ff6633;
+}
+.countFn {
+  /* margin-left: 50px; */
+  width: 120px;
+  height: 60%;
+  border-radius: 4px;
+  background-color: var(--yashil);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 22px;
+}
+.child button {
+  border: none;
+  background: none;
+}
+.suma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.suma h1 {
+  font-size: 26px;
+}
+.suma h5 {
+  font-size: 21px;
+  text-decoration: line-through;
+  color: var(--grayColor);
+  font-weight: 600;
+}
+.wrapper_suma {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.wrapper_info {
+  width: auto;
+  height: 100%;
+  display: flex;
+}
