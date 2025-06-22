@@ -6,6 +6,8 @@
 :root {
   --yashil: #70c05b;
   --grayColor: #606060;
+  --grayDark: #414141;
+  --grayNew: #8f8f8f;
 }
 button:hover {
   cursor: pointer;
@@ -100,18 +102,21 @@ main i {
   width: 100%;
   height: calc(100% - 50px);
   display: flex;
+  gap: 20px;
 }
 .child-product {
-  flex: 2.5;
+  flex: 2.8;
 }
 
 .info-product {
   flex: 1;
-  background-color: #ff6633;
   padding-top: 10px;
   display: flex;
+  flex-direction: column;
 }
 .child {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -240,3 +245,196 @@ main i {
   height: 100%;
   display: flex;
 }
+
+/* From Uiverse.io by ClawHack1 */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+  margin: 10px;
+}
+
+.toggle-switch .toggle-input {
+  display: none;
+}
+
+.toggle-switch .toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 24px;
+  background-color: #2196f3;
+  border-radius: 34px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-switch .toggle-label::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.toggle-switch .toggle-input:checked + .toggle-label {
+  background-color: #4caf50;
+}
+
+.toggle-switch .toggle-input:checked + .toggle-label::before {
+  transform: translateX(16px);
+}
+
+.toggle-switch.light .toggle-label {
+  background-color: #bebebe;
+}
+
+.toggle-switch.light .toggle-input:checked + .toggle-label {
+  background-color: #9b9b9b;
+}
+
+.toggle-switch.light .toggle-input:checked + .toggle-label::before {
+  transform: translateX(6px);
+}
+
+.toggle-switch.dark .toggle-label {
+  background-color: #4b4b4b;
+}
+
+.toggle-switch.dark .toggle-input:checked + .toggle-label {
+  background-color: #717171;
+}
+
+.toggle-switch.dark .toggle-input:checked + .toggle-label::before {
+  transform: translateX(16px);
+}
+/*end*/
+
+.head-info {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.head-sena {
+  font-size: 22px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: var(--grayDark);
+  font-weight: 500;
+}
+.sena-main {
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 20px;
+  color: var(--grayNew);
+  margin-bottom: 20px;
+}
+.product-info {
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid #f3f2f1;
+  border-top: 2px solid #f3f2f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.element-product {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.element-product > p:first-child {
+  color: var(--grayNew);
+}
+.element-product1 > p:last-child {
+  color: var(--grayDark);
+}
+.element-product2 > p:last-child {
+  color: #ff6633;
+  font-weight: bold;
+}
+.itag-suma {
+  width: 100%;
+  height: 230px;
+}
+.haed-itag {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.haed-itag h1 {
+  font-size: 24px;
+}
+.haed-itag p {
+  color: var(--grayNew);
+}
+.bonus {
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: var(--yashil);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.svg-bonus {
+  width: 40px;
+  height: 20px;
+}
+.bonus-weight {
+  font-weight: 600;
+}
+.error-order {
+  width: 80%;
+  height: 30px;
+  background-color: #D80000;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.order-delet{
+    width: 90%;
+    height: 50px;
+    margin: 20px 15px;
+    background-color: #FCD5BA;
+    color: #FF6633;
+    border: none;
+    border-radius: 4px;
+}
+/* #FCD5BA */
+/* #FF6633 */
