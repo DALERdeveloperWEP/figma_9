@@ -401,10 +401,6 @@ main {
 a {
   transition: 0.8s;
 }
-
-a:hover {
-  color: #ff6633;
-}
 .left_box {
   transition: 0.5s;
 }
