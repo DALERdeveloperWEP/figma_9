@@ -16,7 +16,6 @@
 }
 .img_logo{
   width: 100%;
-  height: 100%;
 }
 .svg_header{
   width: 100%;
@@ -28,7 +27,7 @@
   height: 80%;
   align-items: center;
 }
-.logoText_card > .text_logo > a >h2 {
+.logoText_card > .text_logo > a > h2 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
   color: #414141;
@@ -117,21 +116,38 @@
   font-size: 20px;
 }
 .Logo_card {
-  width: 180px;
-  height: 80px;
+  width: 190px;
+  height: 55px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   gap: 10px;
-  color: #414141;
 }
-.Logo_card img {
-  width: 40px;
+.Logo_card .menyu_logo img {
+  width: 45px;
   border-radius: 50%;
 }
 .Logo_card h4 {
   font-weight: 500;
   font-family: "Winky Sans", sans-serif;
+  color: #414141;
 }
+.menyu_logo{
+  height: 90%;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menyu_logo > a{
+  display: flex;
+  align-items: center;
+}
+.btn_sign_sat_profil{
+  background: none;
+  border: none;
+}
+
 .shablon img {
   width: 350px;
 }
@@ -154,16 +170,7 @@
   color: #414141;
   font-family: "Winky Sans", sans-serif;
 }
-.menyu_logo{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.menyu_logo > a{
-  display: flex;
-  align-items: center;
-}
+
 .lupa > a > i:hover{
   color: #70c05b;
 } 
