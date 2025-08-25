@@ -48,7 +48,6 @@ main {
   color: #606060;
   font-size: 16px;
   transition: 0.8s;
-  background-color: black;
 }
 .head_menyu a:hover{
   color: #ff6633;
