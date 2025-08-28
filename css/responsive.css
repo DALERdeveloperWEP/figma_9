@@ -3,15 +3,21 @@
   margin: auto;
 }
 
-
 .head_menyu > a {
   display: flex;
   align-items: center;
 }
 
+@media (max-width: 1075px) {
+  .card_product {
+    column-gap: 20px;
+    align-items: center;
+    row-gap: 0;
+  }
+}
+
 
 @media (max-width: 950px) {
-
   .card_shop .last {
     display: none;
   }
@@ -60,24 +66,30 @@
     transform: rotate(15deg);
     margin-left: 30px;
   }
+
+  .wrapper_wepsite {
+    /* background-color: gray; */
+  }
+  .wrapper_wepsite ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .wrapper_info{
+    width: 32%;
+  }
+  .icon {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .design{
+    display: none;
+  }
 }
 
-@media (max-width: 705px) {
-  .card_shop > .last {
-    display: block;
-  }
-  .card_shop {
-    grid-template-rows: repeat(2, 1fr);
-  }
-
-  .text_box {
-    grid-template-rows: repeat(2, 1fr);
-  }
-
-  .left_img img {
-    width: 160px;
-    margin-left: 40px;
-  }
+@media (max-width:800px) {
+  
 }
 
 @media (max-width: 750px) {
@@ -98,13 +110,60 @@
   footer {
     margin-bottom: 130px;
   }
+
+  .wrapper_wepsite{
+    flex-direction: column;
+  }
+  .wrapper_info{
+    flex-direction: column;
+  }
+  .icon{
+    display: flex;
+  }
 }
 
-@media (max-width: 1075px) {
-  .card_product {
-    column-gap: 20px;
-    align-items: center;
-    row-gap: 0;
+@media (max-width: 705px) {
+  .card_shop > .last {
+    display: block;
+  }
+  .card_shop {
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .text_box {
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .left_img img {
+    width: 160px;
+    margin-left: 40px;
+  }
+
+  .wrapper_wepsite{
+    display: none;
+  }
+
+  .wrapper_info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .img_footer_none{
+    display: flex;
+  }
+    
+  .ul_footer_none{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .footter{
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+
   }
 }
 
@@ -156,37 +215,6 @@
     display: flex;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .menyu_head {
   display: flex;

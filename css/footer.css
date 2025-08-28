@@ -6,7 +6,6 @@
 footer{
   width: 100%;
   height: auto;
-  height: 100px;
   background-color: #F9F4E2;
 }
 
@@ -18,10 +17,39 @@ footer{
   justify-content: space-between;
   padding: 15px;
 }
-.footter ul{
+
+.wrapper_wepsite{
+  width: 65%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  
+}
+.footer_logo{
+  width: 80px;
+  height: 80px;
+}
+
+.wrapper_info{
+  display: flex;
+  width: 28%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.infoWrapp{
+  display: flex;
+  gap: 20px;
+}
+
+.footter .page_footer{
   display: flex;
   gap: 30px;
   list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 a{
   text-decoration: none;
@@ -31,12 +59,19 @@ a{
   display: flex;
   gap: 20px;
   align-items: center;
+  flex-wrap: wrap;
+}
+.icon a svg{
+  width: 25px;
+  height: 25px;
 }
 .number{
-  margin-top: 25px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ height: 60px; 
 }
 .number_tel{
-  margin-bottom: 10px;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -45,7 +80,20 @@ a{
 .number i{
   font-size: 24px;
 }
-/* footer {
+.design{
+  display: flex;
+  gap: 5px;
+  align-items: center; 
+}
+.number p{
+  color: #414141;
+}
+.user_design{
+  width: 101px;
+}
+.img_footer_none{
   display: none;
 }
- */
+.ul_footer_none{
+  display: none;
+}
