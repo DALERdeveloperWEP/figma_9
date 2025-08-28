@@ -67,9 +67,10 @@
     margin-left: 30px;
   }
 
-  .wrapper_wepsite {
-    /* background-color: gray; */
-  }
+  /* .wrapper_wepsite {
+    background-color: gray;
+  } */
+
   .wrapper_wepsite ul {
     flex-wrap: wrap;
     justify-content: center;
@@ -77,6 +78,7 @@
 
   .wrapper_info{
     width: 32%;
+    justify-content: space-around;
   }
   .icon {
     display: grid;
@@ -120,6 +122,12 @@
   .icon{
     display: flex;
   }
+  .shablon img{
+    display: none;
+  }
+  .shablon h1{
+    font-size: 5.5vw;
+  }
 }
 
 @media (max-width: 705px) {
@@ -154,16 +162,20 @@
   }
     
   .ul_footer_none{
+    width: 100%;
+    justify-content: center;
     display: flex;
     list-style: none;
     gap: 20px;
     flex-wrap: wrap;
   }
   .footter{
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     padding: 10px;
-
+  }
+  .city{
+    font-size: 2.6vw;
   }
 }
 
@@ -207,12 +219,37 @@
     display: none;
   }
 
-  .katalog {
+  .button_card {
+    align-items: center;
+  }
+
+  .button_card a:first-child {
     display: flex;
   }
 
-  .img_header {
+  .button_card .img_header {
     display: flex;
+  }
+
+  .icon {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .city{
+    font-size: 17px;
+  }
+  .shoping{
+    width: 300px;
+  }
+  .card_shop{
+    justify-items: center;
+  }
+  .shablon h1{
+    font-size: 24px;
+  }
+  .shablon{
+    height: 150px;
   }
 }
 

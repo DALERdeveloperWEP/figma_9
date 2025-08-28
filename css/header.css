@@ -88,7 +88,7 @@
   display: flex;
   justify-content: space-around;
 }
-.card {
+.button_card a {
   width: 30%;
   border: none;
   transition: 0.6s;
@@ -98,21 +98,22 @@
   background: none;
   font-weight: 500;
   color: #414141;
+  align-items: center;
 }
 
-.card p {
+.button_card a p {
   font-family: monospace;
 }
 
-.card > a > img{
+.button_card > a > img{
   margin-top: 10px;
   width: 40px;
   border-radius: 50%;
 }
-.card:hover{
+.button_card a:hover{
   color: #FF6633;
 }
-.card i{
+.button_card a i{
   font-size: 20px;
 }
 .Logo_card {
@@ -176,7 +177,7 @@
   color: #70c05b;
 } 
 
-.img_header{
+.button_card .img_header{
   display: none;
 }
 
@@ -184,7 +185,7 @@
   display: none;
 } */
 
-.katalog{
+.button_card a:first-child{
   display: none;
 }
 button:hover{
