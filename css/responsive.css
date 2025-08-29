@@ -298,6 +298,10 @@
     width: 70px;
     margin: 0px;
   }
+
+  footer {
+    margin-bottom: 100px;
+  }
 }
 
 .menyu_head {
