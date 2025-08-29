@@ -258,7 +258,6 @@
 
   .city_map {
     height: 120px;
-    background-color: dodgerblue;
     flex-wrap: wrap;
     width: 370px;
     gap: 10px;
