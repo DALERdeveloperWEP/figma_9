@@ -95,4 +95,8 @@ a{
 }
 .ul_footer_none{
   display: none;
+  margin-top: 15px;
+}
+ul > li > a:hover{
+  color: #ff6633;
 }
