@@ -99,6 +99,7 @@
   font-weight: 500;
   color: #414141;
   align-items: center;
+  position: relative;
 }
 
 .button_card a p {
@@ -190,4 +191,17 @@
 }
 button:hover{
   cursor: pointer;
+}
+.counter_heder{
+  width: 15px;
+  height: 15px;
+  background-color: #FF6633;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 40px;
+  border-radius: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
