@@ -304,8 +304,10 @@
   }
 
   .head_menyu a{
-    font-size: 16px;
-    background-color: darkblue;
+    font-size: 12px;
+  }
+  .head_menyu h1{
+    font-size: 20px;
   }
 }
 
