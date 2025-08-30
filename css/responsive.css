@@ -302,6 +302,10 @@
   footer {
     margin-bottom: 100px;
   }
+
+  .head_menyu a{
+    font-size: 16px;
+  }
 }
 
 .menyu_head {
