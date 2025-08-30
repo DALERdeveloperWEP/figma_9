@@ -259,7 +259,7 @@
   .city_map {
     height: 120px;
     flex-wrap: wrap;
-    width: 370px;
+    width: 350px;
     gap: 10px;
   }
   .city_map button {
@@ -304,10 +304,14 @@
   }
 
   .head_menyu a{
-    font-size: 12px;
+    font-size: 14px;
   }
   .head_menyu h1{
     font-size: 20px;
+  }
+
+  .info_map{
+    justify-content: center ;
   }
 }
 
